@@ -27,13 +27,47 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
   border-radius: 100%;
+  border: 2px solid black;
   margin: 0 auto;
-} */
+}
 
 header h1 {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+.nav, .search-form, .name-field {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  margin-top: 10px;
+}
+
+.char-card {
+  border: 2px solid black;
+  margin-bottom: 2%;
+  padding: 1.5%;
+}
+
+.loc-card {
+  border: 2px solid black;
+  margin-bottom: 2%;
+  padding: 1.5%;
 }
